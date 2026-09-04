@@ -19,7 +19,7 @@ public class Bootproj04DependencyInjectStrategyDcLoosCouplingApplication {
 		Vehicle vehicle = ctx.getBean("vehicle",Vehicle.class);
 		
 		//b.method
-		vehicle.journey("Bengulru", "New Delhi");
+		vehicle.journey("Bengaluru", "New Delhi");
 		
 		//close IOC container
 		ctx.close();

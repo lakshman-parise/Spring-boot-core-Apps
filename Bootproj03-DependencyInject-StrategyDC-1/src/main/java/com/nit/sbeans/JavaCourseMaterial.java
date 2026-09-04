@@ -1,8 +1,10 @@
 package com.nit.sbeans;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-@Component("jMaterial")
+@Component
+@Profile("javaMaterial")
 public class JavaCourseMaterial implements IMaterial {
 
 	public JavaCourseMaterial() {

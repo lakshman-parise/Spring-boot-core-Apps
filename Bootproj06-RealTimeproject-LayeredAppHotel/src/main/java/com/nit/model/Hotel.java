@@ -3,6 +3,7 @@ package com.nit.model;
 import lombok.Data;
 
 @Data
+//@Table(name="Hotel_Info")
 public class Hotel {
 
 	private Integer hno;

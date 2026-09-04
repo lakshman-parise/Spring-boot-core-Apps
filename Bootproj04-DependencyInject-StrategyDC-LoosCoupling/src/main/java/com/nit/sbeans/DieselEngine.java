@@ -1,8 +1,10 @@
 package com.nit.sbeans;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component("dEngine")
+//@Profile("dEngine")
 public class DieselEngine implements IEngine {
 
 	public DieselEngine() {

@@ -1,8 +1,10 @@
 package com.nit.sbeans;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-@Component("dtMaterial")
+@Component
+@Profile("dotNetMaterial")
 public class DotNetCourseMaterial implements IMaterial {
 
 	public DotNetCourseMaterial() {

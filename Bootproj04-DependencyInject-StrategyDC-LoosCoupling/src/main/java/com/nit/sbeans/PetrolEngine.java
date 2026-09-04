@@ -3,6 +3,7 @@ package com.nit.sbeans;
 import org.springframework.stereotype.Component;
 
 @Component("pEngine")
+//@Profile("pEngine")
 public class PetrolEngine implements IEngine {
 
 	public PetrolEngine() {

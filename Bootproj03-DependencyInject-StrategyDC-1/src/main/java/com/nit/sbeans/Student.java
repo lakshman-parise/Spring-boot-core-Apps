@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class Student {
 
 	@Autowired
-	@Qualifier("jMaterial")
+	//@Qualifier("jMaterial")
 	private IMaterial material; // Has-A-Property
 	
 	public Student() {

@@ -3,6 +3,7 @@ package com.nit.sbeans;
 import org.springframework.stereotype.Component;
 
 @Component("cEngine")
+//@Profile("cEngine")
 public class CNGEngine implements IEngine {
 
 	public CNGEngine() {
